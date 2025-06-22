@@ -1,0 +1,9 @@
+python -m pytest tests
+
+pip install -r requirements.txt
+
+coverage run -m unittest discover tests
+coverage report -m
+
+
+python main.py
